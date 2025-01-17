@@ -1,0 +1,19 @@
+20:52:43.223 [AWT-EventQueue-0] INFO  c.b.actions.EnableBrowserStack - Setting enable browserstack run update
+20:52:43.232 [AWT-EventQueue-0] INFO  c.b.actions.DisableBrowserStack - Setting disable browserstack run update
+20:52:48.129 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Integrate source: java:intellij:v1.1.6
+20:52:48.130 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+20:52:48.197 [ApplicationImpl pooled thread 16] INFO  c.b.l.BrowserStackRunExtension - maven
+20:52:48.198 [ApplicationImpl pooled thread 16] INFO  com.browserstack.utils.Helpers - null
+20:52:56.452 [java.exe] INFO  c.b.launchers.LaunchMavenCommand - Completed maven archetype command
+21:37:01.854 [ApplicationImpl pooled thread 103] INFO  c.b.l.BrowserStackRunExtension - testng
+21:37:01.855 [ApplicationImpl pooled thread 103] INFO  com.browserstack.utils.Helpers - true
+21:37:01.855 [ApplicationImpl pooled thread 103] INFO  com.browserstack.utils.Helpers - C:/Users/dima/.m2/repository/com/browserstack/browserstack-java-sdk/1.29.4/browserstack-java-sdk-1.29.4.jar
+21:37:01.855 [ApplicationImpl pooled thread 103] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/dima/.m2/repository/com/browserstack/browserstack-java-sdk/1.29.4/browserstack-java-sdk-1.29.4.jar
+21:37:01.855 [ApplicationImpl pooled thread 103] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+21:37:01.855 [ApplicationImpl pooled thread 103] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
+21:41:52.761 [ApplicationImpl pooled thread 118] INFO  c.b.l.BrowserStackRunExtension - testng
+21:41:52.761 [ApplicationImpl pooled thread 118] INFO  com.browserstack.utils.Helpers - true
+21:41:52.762 [ApplicationImpl pooled thread 118] INFO  com.browserstack.utils.Helpers - C:/Users/dima/.m2/repository/com/browserstack/browserstack-java-sdk/1.29.4/browserstack-java-sdk-1.29.4.jar
+21:41:52.762 [ApplicationImpl pooled thread 118] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/dima/.m2/repository/com/browserstack/browserstack-java-sdk/1.29.4/browserstack-java-sdk-1.29.4.jar
+21:41:52.762 [ApplicationImpl pooled thread 118] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+21:41:52.762 [ApplicationImpl pooled thread 118] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6

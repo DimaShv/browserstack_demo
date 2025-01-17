@@ -1,0 +1,410 @@
+21:37:03.817 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+21:37:04.281 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+21:37:04.282 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+21:37:04.547 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket54484 @w@C:\Users\dima\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\dima\AppData\Local\Temp\idea_testng.tmp
+21:37:04.548 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+21:37:04.558 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+21:37:04.616 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+21:37:04.616 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+21:37:04.616 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.29.4
+21:37:04.620 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+21:37:04.620 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+21:37:04.620 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+21:37:04.620 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+21:37:05.241 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+21:37:05.490 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 247ms
+21:37:06.200 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 708ms
+21:37:07.089 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 887ms
+21:37:07.091 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+21:37:07.163 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+21:37:07.164 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"RSoKoZcBBWmb1R1Rzy9Q","userName":"dmytroshevchenko_iFerRm","event_properties":{"product":"[automate, observability]","buildName":"browserstack build","os":"Windows 10","languageVersion":"23.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":7,"parseDependencies":58},"language":"java","sdkRunId":"2b68e236-9c9a-4c73-aaa6-2fbddfcb645d","buildIdentifier":"#1","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.29.4","hostname":"DESKTOP-6RCT9R6","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.27.0","seleniumVersion":"4.27.0"}}
+21:37:07.590 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted, response: {"message":"SDK Event recorded successfully"}
+21:37:07.644 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:07.644 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+21:37:07.645 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 785
+21:37:07.645 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 785
+21:37:08.593 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:37:08.593 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+21:37:08.594 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : mexw912dtfhhig5txylxme4bplcsi9cgnqfcgtg3
+21:37:08.594 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+21:37:08.596 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:09.449 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.515 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 1 and number of platforms - 1
+21:37:09.720 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.720 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.727 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.727 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.727 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.739 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.739 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.739 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.740 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.740 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.751 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:09.753 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-17T19:37:09.753185700Z][ OBSERVABILITY ] Processing Logs patching stream
+21:37:09.755 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:11.446 [Search tests-0@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+21:37:11.448 [Search tests-0@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 48
+21:37:11.450 [Search tests-0@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:11.454 [Search tests-0@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+21:37:11.470 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1737142631470
+
+21:37:11.476 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 12
+
+21:37:11.477 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2666
+21:37:11.478 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 2666
+21:37:11.611 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:37:11.612 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+21:37:11.612 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-17T19:37:11.612183500Z][ TESTHUB ] Batch event successfull!
+
+21:37:15.466 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3995
+
+21:37:15.655 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+21:37:15.655 [Search tests-0@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+21:37:15.657 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:37:15.658 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:37:15.660 [Search tests-0@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:15.733 [Forwarding maximizeCurrentWindow on session 8c4e4c3611fa2aa3890de5e5acd044374664a8b8 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+	at org.example.configs.WebDriverFactory.getDriver(WebDriverFactory.java:13)
+	at config.DriverListener.onStart(DriverListener.java:14)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:864)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:640)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+21:37:15.937 [prepare@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: tests.GoogleTest 
+21:37:15.937 [prepare@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\dima\IdeaProjects\BrowserStack_demo, TestClass :: tests\GoogleTest
+21:37:15.971 [prepare@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\dima\IdeaProjects\BrowserStack_demo\src\test\java\tests\GoogleTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\dima\IdeaProjects\BrowserStack_demo\., Normalized Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo, File.Separator :: \
+21:37:15.971 [prepare@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStack_demo\src\test\java\tests\GoogleTest.java, Absolute Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo\.., Normalized Path :: C:\Users\dima\IdeaProjects 
+21:37:15.987 [prepare@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:37:15.987 [prepare@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:37:15.988 [prepare@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:37:15.988 [prepare@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:37:15.990 [prepare@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+21:37:15.991 [prepare@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:16.022 [Search tests-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: tests.GoogleTest 
+21:37:16.022 [Search tests-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\dima\IdeaProjects\BrowserStack_demo, TestClass :: tests\GoogleTest
+21:37:16.039 [Search tests-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\dima\IdeaProjects\BrowserStack_demo\src\test\java\tests\GoogleTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\dima\IdeaProjects\BrowserStack_demo\., Normalized Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo, File.Separator :: \
+21:37:16.039 [Search tests-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStack_demo\src\test\java\tests\GoogleTest.java, Absolute Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo\.., Normalized Path :: C:\Users\dima\IdeaProjects 
+21:37:16.047 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:37:16.047 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:37:16.047 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:37:16.047 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:37:16.054 [Search tests-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+21:37:16.055 [Search tests-0@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:16.061 [searchTest@0] DEBUG c.b.testNgListeners.TmpSuiteListener - onTestFailure: Exception in setting session status: java.lang.NullPointerException: Cannot invoke "String.replaceAll(String, String)" because the return value of "java.lang.Throwable.getMessage()" is null
+	at com.browserstack.testNgListeners.TmpSuiteListener.onTestFailure(Unknown Source)
+	at org.testng.internal.TestListenerHelper.runTestListeners(TestListenerHelper.java:115)
+	at org.testng.internal.invokers.TestInvoker.runTestResultListener(TestInvoker.java:285)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:774)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+21:37:16.064 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: tests.GoogleTest 
+21:37:16.064 [searchTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\dima\IdeaProjects\BrowserStack_demo, TestClass :: tests\GoogleTest
+21:37:16.087 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\dima\IdeaProjects\BrowserStack_demo\src\test\java\tests\GoogleTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\dima\IdeaProjects\BrowserStack_demo\., Normalized Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo, File.Separator :: \
+21:37:16.087 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStack_demo\src\test\java\tests\GoogleTest.java, Absolute Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo\.., Normalized Path :: C:\Users\dima\IdeaProjects 
+21:37:16.094 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:37:16.094 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:37:16.094 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:37:16.094 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:37:16.095 [searchTest@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+21:37:16.097 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:16.098 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: tests.GoogleTest 
+21:37:16.098 [searchTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\dima\IdeaProjects\BrowserStack_demo, TestClass :: tests\GoogleTest
+21:37:16.119 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\dima\IdeaProjects\BrowserStack_demo\src\test\java\tests\GoogleTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\dima\IdeaProjects\BrowserStack_demo\., Normalized Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo, File.Separator :: \
+21:37:16.119 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStack_demo\src\test\java\tests\GoogleTest.java, Absolute Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo\.., Normalized Path :: C:\Users\dima\IdeaProjects 
+21:37:16.126 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:37:16.126 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:37:16.127 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:37:16.127 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:37:16.132 [searchTest@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+21:37:16.134 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:16.181 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:16.183 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:16.191 [searchTest@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+21:37:16.463 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:16.517 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:16.519 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:16.521 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:17.471 [searchTest@0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+21:37:17.471 [searchTest@0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+21:37:17.471 [searchTest@0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+21:37:17.475 [searchTest@0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+21:37:17.538 [searchTest@0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"RSoKoZcBBWmb1R1Rzy9Q","userName":"dmytroshevchenko_iFerRm","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"2b68e236-9c9a-4c73-aaa6-2fbddfcb645d","buildIdentifier":"#1","testhub_uuid":"mexw912dtfhhig5txylxme4bplcsi9cgnqfcgtg3","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"DESKTOP-6RCT9R6","measures":{"sdk:driver:quit":55.78980001807213,"sdk:testhub":24.806699991226196,"sdk:automate:hub-management":2427.0886999964714,"sdk:driver:pre-initialization":1.9229000210762024,"sdk:setup":5403.677199989557,"sdk:pre-test":0.42160001397132874,"sdk:o11y:sync":49.93,"sdk:automate:session-name":268.9671000242233,"sdk:driver:post-initialization":2.9979000091552734,"sdk:hook":0.21,"sdk:automate:session-annotation":47.18},"productUsage":{"testObservability":{"buildHashedId":"mexw912dtfhhig5txylxme4bplcsi9cgnqfcgtg3","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"failedCount":0,"sentCount":0,"triggeredCount":1},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":0},"passed":{"errors":[],"failedCount":0,"sentCount":0,"triggeredCount":1}},"logEvents":{"errors":[],"failedCount":0,"sentCount":12,"triggeredCount":12,"log":{"errors":[],"failedCount":0,"sentCount":12,"triggeredCount":12}},"testEvents":{"started":{"errors":[],"failedCount":0,"sentCount":0,"triggeredCount":1},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":0},"failed":{"errors":[],"failedCount":0,"sentCount":0,"triggeredCount":1}},"batchEvents":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"cbtSessionEvents":{"errors":[],"failedCount":0,"sentCount":0,"triggeredCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":null,"triggered":null}}}}},"browserStackConfig":{"browserstackLocal":false,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"skipSessionName":false,"serenityOverridePlugin":false},"platforms":[{"capabilities":{},"osVersion":"10","browserVersion":"latest","device":null,"os":"Windows","browser":"Chrome","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":"latest","browserName":"Chrome"},"platformString":"Windows, 10, Chrome, latest","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"browserstack build","os":"Windows 10","languageVersion":"23.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":7,"ret-org.openqa.selenium.remote.RemoteWebDriver":534,"retransformClasses":535,"parseDependencies":58},"userFramework":"testng","detectedDependencies":"testng","referrer":"testng-javaagent\/1.29.4","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.27.0","seleniumVersion":"4.27.0"}}
+21:37:17.855 [searchTest@0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+21:37:17.857 [searchTest@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+21:37:17.858 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:17.860 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:17.862 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:17.868 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:17.871 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:37:17.874 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+21:37:17.875 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+21:37:17.876 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-17T19:37:17.876862400Z][ OBSERVABILITY ] Processing stop observability
+21:37:17.876 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 5
+
+21:37:17.877 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 10812
+21:37:17.878 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 10812
+21:37:18.023 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:37:18.023 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+21:37:18.023 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-17T19:37:18.023853400Z][ TESTHUB ] Batch event successfull!
+
+21:37:18.024 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+21:37:18.024 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/mexw912dtfhhig5txylxme4bplcsi9cgnqfcgtg3/stop with request size 65
+21:37:18.024 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/mexw912dtfhhig5txylxme4bplcsi9cgnqfcgtg3/stop with request size 65
+21:37:18.181 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:37:18.181 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+21:37:18.181 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+21:37:18.183 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:18.186 [Thread-0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+21:37:18.186 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+21:37:18.186 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+21:37:18.186 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+21:37:18.199 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"RSoKoZcBBWmb1R1Rzy9Q","userName":"dmytroshevchenko_iFerRm","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"2b68e236-9c9a-4c73-aaa6-2fbddfcb645d","buildIdentifier":"#1","testhub_uuid":"mexw912dtfhhig5txylxme4bplcsi9cgnqfcgtg3","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"DESKTOP-6RCT9R6","measures":{"sdk:driver:quit":28.9,"sdk:testhub":24.806699991226196,"sdk:post-test":0.1730000078678131,"sdk:automate:session-name":268.9671000242233,"sdk:driver:post-initialization":2.9979000091552734,"sdk:o11y:print-buildlink":306.09189999103546,"sdk:hook":0.21,"sdk:automate:idle-timeout":3.908600002527237,"sdk:automate:hub-management":2427.0886999964714,"sdk:driver:pre-initialization":1.9229000210762024,"sdk:setup":5403.677199989557,"sdk:pre-test":0.42160001397132874,"sdk:o11y:sync":33.33,"sdk:automate:session-annotation":47.18},"productUsage":{"testObservability":{"buildHashedId":"mexw912dtfhhig5txylxme4bplcsi9cgnqfcgtg3","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"failedCount":0,"sentCount":1,"triggeredCount":1},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"passed":{"errors":[],"failedCount":0,"sentCount":1,"triggeredCount":1}},"logEvents":{"errors":[],"failedCount":0,"sentCount":13,"triggeredCount":13,"log":{"errors":[],"failedCount":0,"sentCount":13,"triggeredCount":13}},"testEvents":{"started":{"errors":[],"failedCount":0,"sentCount":1,"triggeredCount":1},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"failed":{"errors":[],"failedCount":0,"sentCount":1,"triggeredCount":1}},"batchEvents":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"cbtSessionEvents":{"errors":[],"failedCount":0,"sentCount":0,"triggeredCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"browserStackConfig":{"browserstackLocal":false,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"skipSessionStatus":false,"skipSessionName":false,"serenityOverridePlugin":false},"platforms":[{"capabilities":{},"osVersion":"10","browserVersion":"latest","device":null,"os":"Windows","browser":"Chrome","platformCaps":{"os":"Windows","osVersion":10,"browserVersion":"latest","browserName":"Chrome"},"platformString":"Windows, 10, Chrome, latest","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"browserstack build","os":"Windows 10","languageVersion":"23.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":7,"ret-org.openqa.selenium.remote.RemoteWebDriver":534,"retransformClasses":535,"parseDependencies":58},"userFramework":"testng","detectedDependencies":"testng","referrer":"testng-javaagent\/1.29.4","locationTrigger":"BSTACK_BUILD_END","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.27.0","seleniumVersion":"4.27.0"}}
+21:37:18.443 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+21:37:19.159 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:19.159 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+21:37:19.450 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:19.450 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack build  1) is not same as client side buildName(browserstack build #1)
+21:37:19.452 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:19.454 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:19.456 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:19.457 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:37:19.465 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://eds.browserstack.com/send_sdk_events with request size 646
+21:37:20.199 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:37:20.199 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Data sent successfully to https://eds.browserstack.com with status 200 {"event_type":"sdk_events","data":{"created_day":"2025-01-17T19:37:19.000463 +0000","event_name":"SDKFeaturePerformance","event_json":"{measures=[{\"duration\":2427.0886999964714,\"eventName\":\"sdk:automate:hub-management\",\"startTime\":1.596635679443E8,\"success\":true,\"worker\":1,\"failure\":null,\"details\":null,\"entryType\":\"measure\",\"platform\":0,\"command\":null,\"testName\":null,\"hookType\":\"\"}]}","user_data":"dmytroshevchenko_iFerRm","testhub_uuid":"mexw912dtfhhig5txylxme4bplcsi9cgnqfcgtg3","host_info":"{\"hostname\":\"DESKTOP-6RCT9R6\",\"arch\":\"amd64\",\"type\":null,\"version\":\"10.0\",\"platform\":\"Windows 10\"}"}} {Content-Type=application/json}
+21:41:55.150 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+21:41:55.657 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to TRACE for logger com.browserstack
+21:41:55.657 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to INFO for logger stdoutPrinter
+21:41:55.843 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Java command - com.intellij.rt.testng.RemoteTestNGStarter -usedefaultlisteners false -socket54615 @w@C:\Users\dima\AppData\Local\Temp\idea_working_dirs_testng.tmp -temp C:\Users\dima\AppData\Local\Temp\idea_testng.tmp
+21:41:55.843 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Test classes detected: 
+21:41:55.855 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none
+21:41:55.907 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Runner: testng, Engine: none from dependencies
+21:41:55.907 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Detected final framework as: testng
+21:41:55.908 [main] DEBUG c.browserstack.BrowserStackJavaAgent - JavaAgent Version 1.29.4
+21:41:55.911 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for INT
+21:41:55.911 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for TERM
+21:41:55.911 [main] DEBUG c.b.utils.ExitSignalHandler - Unable to attach signal handler for HUP Unknown signal: HUP
+21:41:55.911 [main] DEBUG c.b.utils.ExitSignalHandler - Registered handler for ABRT
+21:41:56.469 [Thread-1] DEBUG c.browserstack.utils.UtilityMethods - NEXT HUBS ARE: ["hub-euw.browserstack.com","hub-use.browserstack.com","hub-aps.browserstack.com"]
+21:41:56.719 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-euw.browserstack.com HUB IS: 249ms
+21:41:57.390 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-use.browserstack.com HUB IS: 667ms
+21:41:58.230 [main] DEBUG c.browserstack.utils.UtilityMethods - EXECUTION TIME OF hub-aps.browserstack.com HUB IS: 839ms
+21:41:58.231 [main] DEBUG c.browserstack.utils.UtilityMethods - NEAREST HUB ALLOCATED IS - hub-euw.browserstack.com
+21:41:58.303 [main] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+21:41:58.304 [main] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestAttempted with data: {"event_type":"SDKTestAttempted","accessKey":"RSoKoZcBBWmb1R1Rzy9Q","userName":"dmytroshevchenko_iFerRm","event_properties":{"product":"[automate, observability]","buildName":"browserstack build","os":"Windows 10","languageVersion":"23.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":8,"parseDependencies":52},"language":"java","sdkRunId":"6d3b0288-1c39-4629-b68e-0f93c23bab06","buildIdentifier":"#2","userFramework":"testng","testhub_uuid":"","detectedAppiumVersion":"null","detectedDependencies":"testng","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"referrer":"testng-javaagent\/1.29.4","hostname":"DESKTOP-6RCT9R6","language_framework":"java_testng","detectedFramework":"testng","detectedSeleniumVersion":"4.27.0","seleniumVersion":"4.27.0"}}
+21:41:58.647 [main] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestAttempted, response: {"message":"SDK Event recorded successfully"}
+21:41:58.709 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:41:58.709 [main] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind launchTestSession
+21:41:58.709 [main] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v2/builds with request size 785
+21:41:58.709 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v2/builds with request size 785
+21:41:59.412 [main] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:41:59.412 [main] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+21:41:59.413 [main] DEBUG com.browserstack.testOps.Listener - BROWSERSTACK_TESTHUB_UUID : wzngcnndhmy6kz7dmed0u3kz3gh87e6nwrpxrkci
+21:41:59.413 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Build creation successfull
+21:41:59.415 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:00.667 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:00.760 [main] DEBUG c.b.t.XMLSuiteClassListener - Number of parallels - 1 and number of platforms - 1
+21:42:01.112 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.113 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.120 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.120 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.120 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.133 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.133 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.133 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.133 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.133 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.144 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:01.146 [main] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-17T19:42:01.146993700Z][ OBSERVABILITY ] Processing Logs patching stream
+21:42:01.150 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:02.683 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 1737142922683
+
+21:42:02.694 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 12
+
+21:42:02.694 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 2666
+21:42:02.695 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 2666
+21:42:02.841 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:42:02.842 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+21:42:02.842 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-17T19:42:02.842988200Z][ TESTHUB ] Batch event successfull!
+
+21:42:06.687 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 4002
+
+21:42:10.676 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3989
+
+21:42:12.681 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2005
+
+21:42:14.682 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2001
+
+21:42:16.685 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2003
+
+21:42:20.674 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3989
+
+21:42:21.194 [Search tests-0@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+21:42:21.196 [Search tests-0@0] DEBUG c.b.selenium.SeleniumHandler - beforeDriverInit: SDK enabled. Thread ID: 48
+21:42:21.198 [Search tests-0@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:21.205 [Search tests-0@0] DEBUG c.browserstack.utils.UtilityMethods - [Patch]: SDK enabled, patching remote server
+21:42:22.686 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 2011
+
+21:42:25.410 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - OPTIMAL HUB IS: hub-euw.browserstack.com
+21:42:25.411 [Search tests-0@0] DEBUG c.b.selenium.SeleniumHandler - afterDriverInit: requested
+21:42:25.414 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:42:25.414 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:42:25.415 [Search tests-0@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:25.485 [Forwarding maximizeCurrentWindow on session 5f97eb50abfa0f2678b2aabb01bfebcc02b27f23 to remote] DEBUG c.browserstack.utils.UtilityMethods - [Error]java.lang.IllegalAccessError: Update to non-static final field org.openqa.selenium.remote.HttpCommandExecutor.client attempted from a different method (execute) than the initializer method <init> 
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:622)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:1061)
+	at org.example.configs.WebDriverFactory.getDriver(WebDriverFactory.java:13)
+	at config.DriverListener.onStart(DriverListener.java:14)
+	at org.testng.TestRunner.fireEvent(TestRunner.java:864)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:640)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1575)
+
+21:42:25.668 [prepare@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunStarted, Method ClassName :: tests.GoogleTest 
+21:42:25.668 [prepare@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\dima\IdeaProjects\BrowserStack_demo, TestClass :: tests\GoogleTest
+21:42:25.705 [prepare@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\dima\IdeaProjects\BrowserStack_demo\src\test\java\tests\GoogleTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\dima\IdeaProjects\BrowserStack_demo\., Normalized Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo, File.Separator :: \
+21:42:25.705 [prepare@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStack_demo\src\test\java\tests\GoogleTest.java, Absolute Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo\.., Normalized Path :: C:\Users\dima\IdeaProjects 
+21:42:25.725 [prepare@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:42:25.725 [prepare@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:42:25.726 [prepare@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:42:25.726 [prepare@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:42:25.728 [prepare@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunStarted
+21:42:25.730 [prepare@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:25.759 [Search tests-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunStarted, Test ClassName :: tests.GoogleTest 
+21:42:25.759 [Search tests-0@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\dima\IdeaProjects\BrowserStack_demo, TestClass :: tests\GoogleTest
+21:42:25.777 [Search tests-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\dima\IdeaProjects\BrowserStack_demo\src\test\java\tests\GoogleTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\dima\IdeaProjects\BrowserStack_demo\., Normalized Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo, File.Separator :: \
+21:42:25.777 [Search tests-0@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStack_demo\src\test\java\tests\GoogleTest.java, Absolute Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo\.., Normalized Path :: C:\Users\dima\IdeaProjects 
+21:42:25.783 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:42:25.783 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:42:25.784 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:42:25.784 [Search tests-0@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:42:25.788 [Search tests-0@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunStarted
+21:42:25.790 [Search tests-0@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:26.678 [pool-2-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Time Since Last Batch Processed 3992
+
+21:42:26.678 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 2
+
+21:42:26.679 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 4150
+21:42:26.679 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 4150
+21:42:26.810 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:42:26.810 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+21:42:26.810 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-17T19:42:26.810430600Z][ TESTHUB ] Batch event successfull!
+
+21:42:27.911 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:27.914 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: HookRunFinished, Method ClassName :: tests.GoogleTest 
+21:42:27.914 [searchTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\dima\IdeaProjects\BrowserStack_demo, TestClass :: tests\GoogleTest
+21:42:27.930 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\dima\IdeaProjects\BrowserStack_demo\src\test\java\tests\GoogleTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\dima\IdeaProjects\BrowserStack_demo\., Normalized Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo, File.Separator :: \
+21:42:27.930 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStack_demo\src\test\java\tests\GoogleTest.java, Absolute Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo\.., Normalized Path :: C:\Users\dima\IdeaProjects 
+21:42:27.938 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:42:27.938 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:42:27.938 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:42:27.938 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:42:27.939 [searchTest@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind HookRunFinished
+21:42:27.940 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:27.941 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Event Type :: TestRunFinished, Test ClassName :: tests.GoogleTest 
+21:42:27.941 [searchTest@0] DEBUG c.browserstack.utils.UtilityMethods - [findFileMatcher] Current Path is :: C:\Users\dima\IdeaProjects\BrowserStack_demo, TestClass :: tests\GoogleTest
+21:42:27.957 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] The filename fetched :: C:\Users\dima\IdeaProjects\BrowserStack_demo\src\test\java\tests\GoogleTest.java, fileSeparator :: \, AbsolutePath :: C:\Users\dima\IdeaProjects\BrowserStack_demo\., Normalized Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo, File.Separator :: \
+21:42:27.958 [searchTest@0] DEBUG c.b.testNgListeners.TestNGUtils - [populateTestDataForBSTestOps] Replaced File Name is :: BrowserStack_demo\src\test\java\tests\GoogleTest.java, Absolute Path :: C:\Users\dima\IdeaProjects\BrowserStack_demo\.., Normalized Path :: C:\Users\dima\IdeaProjects 
+21:42:27.965 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:42:27.965 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:42:27.970 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Getting Hub url from HttpCommandExecutor
+21:42:27.970 [searchTest@0] DEBUG c.b.utils.SeleniumMethodUtils - getURLFromCommandExecutor: Found url: https://hub-euw.browserstack.com/wd/hub
+21:42:27.977 [searchTest@0] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind TestRunFinished
+21:42:27.978 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:28.024 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:28.025 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:28.032 [searchTest@0] DEBUG c.browserstack.utils.LogReportingAPI - sendPlatformDetails: Can't send CBT info, as driver or test is not found
+21:42:28.260 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:28.599 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:28.643 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:28.644 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:28.645 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:29.449 [searchTest@0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+21:42:29.450 [searchTest@0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+21:42:29.450 [searchTest@0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+21:42:29.454 [searchTest@0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+21:42:29.508 [searchTest@0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"RSoKoZcBBWmb1R1Rzy9Q","userName":"dmytroshevchenko_iFerRm","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"6d3b0288-1c39-4629-b68e-0f93c23bab06","buildIdentifier":"#2","error":"[{\"tests\":{\"tests.GoogleTest-searchTest\":\"element not interactable   (Session info: chrome=132.0.6834.84) Build info: version: '4.27.0', revision: 'd6e718d134' System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1' Driver info: org.openqa.selenium.chrome.ChromeDriver Command: [5f97eb50abfa0f2678b2aabb01bfebcc02b27f23, sendKeysToElement {value=[Ljava.lang.CharSequence;@c81a586, id=f.77BB31CF8BA0738782BFF17AD6BFDB6B.d.2830ED4DB3964E6AA57CFCA2A81E5B9E.e.27}] Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\\\\Windows\\\\proxy\\\\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2904}, networkConnectionEnabled: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 5f97eb50abfa0f2678b2aabb01b...} Element: [[ChromeDriver: chrome on windows (5f97eb50abfa0f2678b2aabb01bfebcc02b27f23)] -> xpath: (\\\/\\\/textarea)[1]] Session ID: 5f97eb50abfa0f2678b2aabb01bfebcc02b27f23\"},\"os\":\"Windows\",\"osVersion\":\"10\",\"browser\":\"Chrome\",\"browserVersion\":\"latest\"}]","testhub_uuid":"wzngcnndhmy6kz7dmed0u3kz3gh87e6nwrpxrkci","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"DESKTOP-6RCT9R6","measures":{"sdk:driver:quit":44.1453999876976,"sdk:testhub":25.096199989318848,"sdk:automate:hub-management":2266.464700013399,"sdk:driver:pre-initialization":3.304300010204315,"sdk:automate:session-status":321.7782000005245,"sdk:setup":5061.279100000858,"sdk:pre-test":0.5783000290393829,"sdk:o11y:sync":44.61,"sdk:automate:session-name":227.01099997758865,"sdk:driver:post-initialization":3.2078000009059906,"sdk:hook":0.2,"sdk:automate:session-annotation":43.59},"productUsage":{"testObservability":{"buildHashedId":"wzngcnndhmy6kz7dmed0u3kz3gh87e6nwrpxrkci","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":0},"passed":{"errors":[],"sentCount":0,"triggeredCount":1,"failedCount":0}},"logEvents":{"errors":[],"sentCount":12,"triggeredCount":12,"failedCount":0,"log":{"errors":[],"sentCount":12,"triggeredCount":12,"failedCount":0}},"testEvents":{"started":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":0},"failed":{"errors":[],"sentCount":0,"triggeredCount":1,"failedCount":0}},"batchEvents":{"triggeredCount":2,"failedCount":0,"errors":[],"sentCount":2},"cbtSessionEvents":{"errors":[],"sentCount":0,"triggeredCount":0,"failedCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":null,"triggered":null}}}}},"browserStackConfig":{"browserstackLocal":false,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"serenityOverridePlugin":false,"skipSessionStatus":false,"skipSessionName":false},"platforms":[{"osVersion":"10","browserVersion":"latest","capabilities":{},"browser":"Chrome","os":"Windows","device":null,"platformCaps":{"os":"Windows","osVersion":10,"browserVersion":"latest","browserName":"Chrome"},"platformString":"Windows, 10, Chrome, latest","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"browserstack build","os":"Windows 10","languageVersion":"23.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":8,"ret-org.openqa.selenium.remote.RemoteWebDriver":844,"retransformClasses":844,"parseDependencies":52},"userFramework":"testng","detectedDependencies":"testng","referrer":"testng-javaagent\/1.29.4","locationTrigger":"onFinish","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.27.0","seleniumVersion":"4.27.0"}}
+21:42:30.118 [searchTest@0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+21:42:30.121 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:30.121 [searchTest@0] DEBUG c.browserstack.utils.LogReportingAPI - sendSync failed - driver not alive
+21:42:30.122 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:30.123 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:30.124 [searchTest@0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:30.130 [main] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:30.133 [main] DEBUG com.browserstack.testOps.Listener - [ TESTHUB ] Processing Request Kind LogCreated
+21:42:30.137 [Thread-0] DEBUG c.browserstack.BrowserStackJavaAgent - Starting final execution
+21:42:30.137 [Thread-0] DEBUG c.b.u.ObservabilityUtilityMethods - Processing batch requests with type: Global
+21:42:30.138 [Thread-0] DEBUG c.browserstack.utils.LogReportingAPI - [2025-01-17T19:42:30.138021Z][ OBSERVABILITY ] Processing stop observability
+21:42:30.138 [pool-3-thread-1] DEBUG c.browserstack.utils.RequestBatcher - Processing Batch 3
+
+21:42:30.140 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: POST api/v1/batch with request size 10382
+21:42:30.141 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://collector-observability.browserstack.com/api/v1/batch with request size 10382
+21:42:30.273 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:42:30.273 [pool-3-thread-1] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+21:42:30.274 [pool-3-thread-1] DEBUG c.browserstack.utils.LogReportingAPI - 
+[2025-01-17T19:42:30.274035700Z][ TESTHUB ] Batch event successfull!
+
+21:42:30.275 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [ TESTHUB ] Processing Request Kind stopBuildUpstream
+21:42:30.275 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [requestToTestOps] Sending Observability request: PUT api/v1/builds/wzngcnndhmy6kz7dmed0u3kz3gh87e6nwrpxrkci/stop with request size 65
+21:42:30.275 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: PUT https://collector-observability.browserstack.com/api/v1/builds/wzngcnndhmy6kz7dmed0u3kz3gh87e6nwrpxrkci/stop with request size 65
+21:42:30.408 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:42:30.408 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - requestToTestOps: Response code: 200
+21:42:30.408 [Thread-0] DEBUG com.browserstack.testOps.Listener - Testhub stop response: 
+21:42:30.410 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:30.413 [Thread-0] DEBUG c.b.utils.FrameworkDetectionUtils - Couldn't find dependency class: appium
+21:42:30.413 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getFormattedData: Collecting data for TestObservability
+21:42:30.413 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - getEventStats: Getting event data for TestObservability
+21:42:30.413 [Thread-0] DEBUG com.browserstack.testOps.UsageStats - [OBSERVABILITY] Failed to parse data from workers
+21:42:30.424 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - Sending funnel data for SDKTestSuccessful with data: {"event_type":"SDKTestSuccessful","accessKey":"RSoKoZcBBWmb1R1Rzy9Q","userName":"dmytroshevchenko_iFerRm","event_properties":{"isPercyAutoEnabled":false,"language":"java","sdkRunId":"6d3b0288-1c39-4629-b68e-0f93c23bab06","buildIdentifier":"#2","error":"[{\"tests\":{\"tests.GoogleTest-searchTest\":\"element not interactable   (Session info: chrome=132.0.6834.84) Build info: version: '4.27.0', revision: 'd6e718d134' System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1' Driver info: org.openqa.selenium.chrome.ChromeDriver Command: [5f97eb50abfa0f2678b2aabb01bfebcc02b27f23, sendKeysToElement {value=[Ljava.lang.CharSequence;@c81a586, id=f.77BB31CF8BA0738782BFF17AD6BFDB6B.d.2830ED4DB3964E6AA57CFCA2A81E5B9E.e.27}] Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\\\\Windows\\\\proxy\\\\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2904}, networkConnectionEnabled: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 5f97eb50abfa0f2678b2aabb01b...} Element: [[ChromeDriver: chrome on windows (5f97eb50abfa0f2678b2aabb01bfebcc02b27f23)] -> xpath: (\\\/\\\/textarea)[1]] Session ID: 5f97eb50abfa0f2678b2aabb01bfebcc02b27f23\"},\"os\":\"Windows\",\"osVersion\":\"10\",\"browser\":\"Chrome\",\"browserVersion\":\"latest\"}]","testhub_uuid":"wzngcnndhmy6kz7dmed0u3kz3gh87e6nwrpxrkci","detectedAppiumVersion":"null","productMap":{"app_automate":false,"accessibility":false,"automate":true,"percy":false,"observability":true,"turboscale":false},"hostname":"DESKTOP-6RCT9R6","measures":{"sdk:driver:quit":22.77,"sdk:testhub":25.096199989318848,"sdk:post-test":0.2616000175476074,"sdk:automate:session-name":227.01099997758865,"sdk:driver:post-initialization":3.2078000009059906,"sdk:o11y:print-buildlink":271.4772000014782,"sdk:hook":0.2,"sdk:automate:idle-timeout":4.029000014066696,"sdk:automate:hub-management":2266.464700013399,"sdk:driver:pre-initialization":3.304300010204315,"sdk:automate:session-status":160.89,"sdk:setup":5061.279100000858,"sdk:pre-test":0.5783000290393829,"sdk:o11y:sync":29.77,"sdk:automate:session-annotation":43.59},"productUsage":{"testObservability":{"buildHashedId":"wzngcnndhmy6kz7dmed0u3kz3gh87e6nwrpxrkci","manuallySet":false,"enabled":true,"events":{"hookEvents":{"started":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"passed":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0}},"logEvents":{"errors":[],"sentCount":13,"triggeredCount":13,"failedCount":0,"log":{"errors":[],"sentCount":13,"triggeredCount":13,"failedCount":0}},"testEvents":{"started":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0},"finished":{"triggeredCount":1,"failedCount":0,"errors":[],"sentCount":1},"failed":{"errors":[],"sentCount":1,"triggeredCount":1,"failedCount":0}},"batchEvents":{"triggeredCount":3,"failedCount":0,"errors":[],"sentCount":3},"cbtSessionEvents":{"errors":[],"sentCount":0,"triggeredCount":0,"failedCount":0},"buildEvents":{"started":{"error":null,"status":"success","triggered":true},"finished":{"error":null,"status":"success","triggered":true}}}}},"browserStackConfig":{"browserstackLocal":false,"percy":false,"logLevel":"info","staticWebDriver":true,"autoDetectFramework":true,"percyCaptureMode":"MANUAL","browserStackLocalOptions":null,"percyOptions":null,"testContextOptions":{"serenityOverridePlugin":false,"skipSessionStatus":false,"skipSessionName":false},"platforms":[{"osVersion":"10","browserVersion":"latest","capabilities":{},"browser":"Chrome","os":"Windows","device":null,"platformCaps":{"os":"Windows","osVersion":10,"browserVersion":"latest","browserName":"Chrome"},"platformString":"Windows, 10, Chrome, latest","customVariables":"****"}],"parallelsPerPlatform":1,"framework":"testng","accessibility":false,"accessibilityOptions":{},"turboScaleOptions":{},"disableAutoCaptureLogs":true,"testObservability":true,"browserstackAutomation":true,"turboScale":false,"testObservabilityOptions":{},"gradleMConfig":null,"proxySettings":null},"percyBuildId":null,"product":"[automate, observability]","buildName":"browserstack build","os":"Windows 10","languageVersion":"23.0.1","appiumVersion":"","frameworkDetectionInstrumentation":{"parseLoadClass":8,"ret-org.openqa.selenium.remote.RemoteWebDriver":844,"retransformClasses":844,"parseDependencies":52},"userFramework":"testng","detectedDependencies":"testng","referrer":"testng-javaagent\/1.29.4","locationTrigger":"BSTACK_BUILD_END","accessibilityConfiguration":{"pollingTimeout":30},"language_framework":"java_testng","detectedFramework":"testng","testOrchestration":{"abortBuildOnFailure":{"enabled":false},"retryTestsOnFailure":{"enabled":false},"userConfig":{}},"detectedSeleniumVersion":"4.27.0","seleniumVersion":"4.27.0"}}
+21:42:30.656 [Thread-0] DEBUG c.b.utils.FunnelInstrumentation - API Event SDKTestSuccessful, response: {"message":"SDK Event recorded successfully"}
+21:42:31.420 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:31.421 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Browserstack Gradle Config File does not exist.
+21:42:31.732 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:31.732 [Thread-0] DEBUG c.browserstack.utils.UtilityMethods - Server side buildName(browserstack build  2) is not same as client side buildName(browserstack build #2)
+21:42:31.734 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:31.735 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:31.736 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:31.738 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Failed to append key metrics to file C:\Users\dima\IdeaProjects\BrowserStack_demo\logs\key-metrics.json
+21:42:31.746 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest] Sending request: POST https://eds.browserstack.com/send_sdk_events with request size 645
+21:42:32.472 [Thread-0] DEBUG c.browserstack.testOps.RequestUtils - [makeRequest]: Response code: 200
+21:42:32.472 [Thread-0] DEBUG c.b.monitoring.PerformanceTester - Data sent successfully to https://eds.browserstack.com with status 200 {"event_type":"sdk_events","data":{"created_day":"2025-01-17T19:42:31.000744 +0000","event_name":"SDKFeaturePerformance","event_json":"{measures=[{\"duration\":2266.464700013399,\"eventName\":\"sdk:automate:hub-management\",\"startTime\":1.599548696999E8,\"success\":true,\"worker\":1,\"failure\":null,\"details\":null,\"entryType\":\"measure\",\"platform\":0,\"command\":null,\"testName\":null,\"hookType\":\"\"}]}","user_data":"dmytroshevchenko_iFerRm","testhub_uuid":"wzngcnndhmy6kz7dmed0u3kz3gh87e6nwrpxrkci","host_info":"{\"hostname\":\"DESKTOP-6RCT9R6\",\"arch\":\"amd64\",\"type\":null,\"version\":\"10.0\",\"platform\":\"Windows 10\"}"}} {Content-Type=application/json}
