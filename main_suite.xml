@@ -2,6 +2,7 @@
 <suite name="Selenium Test Suite" parallel="false">
     <listeners>
         <listener class-name="config.DriverListener"/>
+        <listener class-name="config.TestRailXmlListener"/>
     </listeners>
     <test name="Search tests">
         <classes>

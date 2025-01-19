@@ -1,0 +1,1 @@
+trcli -y -c "trcliconfig.yaml" parse_junit -f "./testrail_results.xml"

@@ -1,5 +1,6 @@
 package tests;
 
+import config.TestRailCase;
 import org.example.configs.Constants;
 import org.example.configs.PropertiesManager;
 import org.example.pages.GooglePage;
@@ -22,7 +23,8 @@ public class GoogleTest {
     }
 
     @Test
-    public void searchTest() {
+    @TestRailCase(id = "C2")
+    public void failedTest() {
         googlePage.openSearchPage();
         String searchParam = "test";
         googlePage.searchForText(searchParam);
@@ -30,5 +32,17 @@ public class GoogleTest {
         assertThat(currentUrl)
                 .as("Wrong url after search")
                 .startsWith(PropertiesManager.getProperty(Constants.BASE_URL_PROPERTY) + "/search?q=");
+    }
+
+    @Test
+    @TestRailCase(id = "C1")
+    public void successTest() {
+        assertThat(true).isTrue();
+    }
+
+    @Test(dependsOnMethods = "failedTest")
+    @TestRailCase(id = "C3")
+    public void skippTest() {
+        assertThat(true).isTrue();
     }
 }

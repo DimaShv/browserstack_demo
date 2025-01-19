@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="Selenium Test Suite" skipped="1" tests="3" time="1.925">
+    <testcase classname="tests.GoogleTest" name="failedTest" time="1.789">
+        <failure message="element not interactable&#10;  (Session info: chrome=132.0.6834.84)&#10;Build info: version: '4.27.0', revision: 'd6e718d134'&#10;System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [fcd24e0e921cf205de564339b127eace6aa0c81b, sendKeysToElement {id=f.0864BF372ECC2898CDA24E223038F0BC.d.1393D4C9A0C4C5D6E136774CF58B6BA3.e.19, value=[Ljava.lang.CharSequence;@2a3f6b75}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2967}, networkConnectionEnabled: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: fcd24e0e921cf205de564339b12...}&#10;Element: [[ChromeDriver: chrome on windows (fcd24e0e921cf205de564339b127eace6aa0c81b)] -&gt; xpath: (//textarea)[1]]&#10;Session ID: fcd24e0e921cf205de564339b127eace6aa0c81b" type="org.openqa.selenium.ElementNotInteractableException">org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=132.0.6834.84)
+Build info: version: '4.27.0', revision: 'd6e718d134'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [fcd24e0e921cf205de564339b127eace6aa0c81b, sendKeysToElement {id=f.0864BF372ECC2898CDA24E223038F0BC.d.1393D4C9A0C4C5D6E136774CF58B6BA3.e.19, value=[Ljava.lang.CharSequence;@2a3f6b75}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 132.0.6834.84, chrome: {chromedriverVersion: 132.0.6834.83 (03d59cf5ecf1..., userDataDir: C:\Windows\proxy\scoped_dir...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:2967}, networkConnectionEnabled: false, optimalHubUrl: hub-euw.browserstack.com, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: fcd24e0e921cf205de564339b12...}
+Element: [[ChromeDriver: chrome on windows (fcd24e0e921cf205de564339b127eace6aa0c81b)] -&gt; xpath: (//textarea)[1]]
+Session ID: fcd24e0e921cf205de564339b127eace6aa0c81b&#13;
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)&#13;
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)&#13;
+	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)&#13;
+	at org.example.pages.GooglePage.searchForText(GooglePage.java:27)&#13;
+	at tests.GoogleTest.failedTest(GoogleTest.java:30)&#13;
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)&#13;
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)&#13;
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)&#13;
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)&#13;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)&#13;
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)&#13;
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)&#13;
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)&#13;
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)&#13;
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)&#13;
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)&#13;
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)&#13;
+	at org.testng.TestRunner.run(TestRunner.java:614)&#13;
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)&#13;
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)&#13;
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)&#13;
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)&#13;
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)&#13;
+	at java.base/java.lang.Thread.run(Thread.java:1575)&#13;
+</failure>
+        <property name="test_id" value="C2"/>
+    </testcase>
+    <testcase classname="tests.GoogleTest" name="successTest" time="0.136">
+        <property name="test_id" value="C1"/>
+    </testcase>
+    <testcase classname="tests.GoogleTest" name="skippTest" time="0.000">
+        <skipped/>
+        <property name="test_id" value="C3"/>
+    </testcase>
+</testsuite>

@@ -1,0 +1,6 @@
+host: https://[your].testrail.io
+project: test
+username: user
+password: pass
+title: TestNG Automated Test Run
+case-matcher: property
